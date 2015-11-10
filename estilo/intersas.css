@@ -1,0 +1,255 @@
+DIV#menu_lateral {
+    position:absolute;
+    left:0px;
+    top: 80px;
+    width: 24%;
+    background-color: transparent;
+    padding: 4px;
+    font-size: 80%;
+}
+DIV#imagen_central {
+    position:absolute;
+    left:25%;
+    background-color: transparent;
+}
+DIV#contenido {
+    position:absolute;
+    top:270px;
+    left:25%;
+    background-color: transparent;
+}
+DIV#direcciones_junta {
+    background-color: #2D6F53;
+    width:99%;
+    vertical-align:middle;
+    padding-left: 8%;
+}
+#direcciones_junta li {
+    margin: 0;
+    padding-right: 0.5em;
+    padding-left: 0em;
+    display: inline;
+    list-style-type: none;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Tahoma;
+    FONT-WEIGHT: bold;
+}
+#direcciones_juta ul {
+    background-color:white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:0px;
+    padding-left:0px;
+}
+#direcciones_junta a {
+    vertical-align:middle;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Tahoma;
+    FONT-SIZE: 65%;
+    FONT-WEIGHT: bold;
+}
+#ayuda_solicitud_print {
+    display:none;
+}
+.menu_servicios {
+    padding:3px;
+    border-top-style:solid;
+    border-left-style:solid;
+    border-color:white;
+    background-color:#f9f9f9;
+    text-align:center;
+}
+.menu_contactar {
+    border-bottom-width:1px ;
+    border-bottom-style:inset;
+    border-bottom-color: #2D6F53; padding:3px; background-color:#f9f9f9;
+    border-top-width:1px ;
+    border-top-style:inset;
+    border-top-color: #2D6F53; padding:3px; background-color:#f9f9f9;
+    text-align:center;
+}
+.menu_administracion {
+    background-color:#D2ECD1;
+    text-decoration: none;
+    text-align:center;
+    height: 10%; padding:3px;
+}
+.menu_final {
+    border-bottom-width:1px ;
+    border-bottom-style:inset;
+    border-bottom-color: white;
+    padding:3px;
+    background-color:#f9f9f9;
+    text-align:center;
+}
+.titulo {
+    FONT-FAMILY: Verdana, Tahoma;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    background-color:#2D6F53;
+    text-decoration: none;
+    text-align:center;
+    height: 10%;
+    color: white;
+    padding:3px;
+    border-width:1px;
+}
+.enlaces2 {
+    color:#933000;
+    FONT-SIZE: 85%;
+    FONT-WEIGHT: bold;
+    FONT-FAMILY: Verdana, Tahoma;
+}
+A.enlaces2:hover, A.letra_pequenia:hover {
+    background-color:#E2ED94;
+}
+.enlace_imagen {
+    display: list-item;
+    list-style-image: url(img/flecha_d.gif);
+    list-style-position: inside;
+    text-decoration:underline;
+    font-size:80%;
+    color:#933000;
+    FONT-WEIGHT: bold;
+    FONT-FAMILY: Verdana, Tahoma;
+}
+.enlaces_menu_horizontal:hover {
+    border-bottom:  3px solid #2D6F53
+}
+.enlaces_menu_horizontal {
+    color:#933000;
+    FONT-SIZE: 85%;
+    FONT-WEIGHT: bold;
+    FONT-FAMILY: Verdana, Tahoma;
+    padding-bottom:1px;
+}
+h1, h2, h3, h4, h6, h5 {
+    margin-top:0.5em; margin-bottom:0.5em; padding-bottom:0em;
+}
+h2#titulo_pagina {
+    margin-top:0em; margin-bottom:0em; padding-bottom:0em;
+}
+h1#titulo_pagina {
+    margin-top:0em; margin-bottom:0em; padding-bottom:0em;
+}
+CAPTION, .encabezado_1 {
+    text-align:left;
+    padding-bottom:5px;  border-bottom-color:#CC9900; border-bottom-width:2px;
+    border-bottom-style:inset;
+    color:#933000;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    FONT-FAMILY: Verdana, Tahoma;
+}
+.tabla_informacion {
+    background-color:#f9f9f9
+}
+A.enlaces2:hover, A.letra_pequenia:hover {
+    background-color:#E2ED94;
+}
+.enlaces_servicios {
+    FONT-FAMILY: Verdana, Tahoma;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    text-decoration: none;
+    color: #000000;
+}
+A.enlaces_servicios:hover {
+    color: #669900;
+    TEXT-DECORATION: underline;
+}
+.enlaces_contactar {
+    FONT-FAMILY: Verdana, Tahoma;
+    FONT-SIZE: 75%;
+    FONT-WEIGHT: bold;
+    text-decoration: none;
+    color:#2D6F53;
+}
+A.enlaces_contactar:hover , A.enlace_imagen:hover {
+    color:black;
+}
+.anagrama {
+    font-size:150%;
+    font-family:"BankGothic Md BT", Verdana, Arial;
+    font-weight:bold;
+    letter-spacing:2;
+    color:white;
+    text-decoration:none;
+}
+.boton_identificacion {
+    color:#933000;
+    font-size: 0.6em;
+    font-weight: bold;
+    font-family: Verdana, Tahoma;
+    text-decoration: none;
+    border: 2px outset grey;
+    padding: 0.3em;
+    padding-right:  1.5em;
+    padding-left: 1.5em;
+    background-color: white;
+}
+.no_visible { display:none;  }
+.visible { display:block; }
+.texto_oculto { display:inline; visibility:hidden; }
+.letra_general { FONT-FAMILY: Verdana, Tahoma; FONT-SIZE: 70%; font-weight:normal; }
+.letra_general_2 { FONT-FAMILY: Verdana, Tahoma; FONT-SIZE: 55%; color:#d20000; }
+.letra_general_encabezados { FONT-FAMILY: Verdana, Tahoma; font-size: 90%; }
+.efecto_lista_general {FONT-FAMILY: Verdana, Tahoma; FONT-SIZE: 70%; display:list-item; list-style:disc none inside; }
+.fecha_a_derecha { FONT-FAMILY: Verdana, Tahoma; FONT-SIZE: 60%; width:99%; text-align:right; }
+.sombreado {background-color:#f5f5f5;}
+.boton { border:2px outset #669900; font-family: Verdana; font-size: 70%; color:#669900; font-weight: bold; background-color:#f9f9f9; text-decoration:underline; }
+.linea_horizontal { color:#CC9900;margin-top:0em;margin-bottom:0em; }
+.linea_subrayada { padding-bottom:1px; padding-right:550px; border-bottom-color:#CC9900; border-bottom-width:2px; border-bottom-style:inset;}
+.letra_pequenia { FONT-FAMILY: Verdana, Tahoma; FONT-SIZE: 70%; FONT-WEIGHT: bold; color:#669900; }
+.letra_negrita { FONT-FAMILY: Verdana, Tahoma; FONT-SIZE: 70%; FONT-WEIGHT: bold;  }
+.letra_italica { FONT-FAMILY: Verdana, Tahoma; FONT-SIZE: 70%; font-style:italic }
+.etiquetas_campos { FONT-FAMILY: Verdana, Tahoma; FONT-SIZE: 70%; FONT-WEIGHT: bold; color:#2D6F53; }
+.encabezado_tabla { FONT-FAMILY: Verdana, Tahoma; FONT-SIZE: 70%; FONT-WEIGHT: bold; color: #2D6F53; }
+.tabla_formulario { border-collapse:collapse; background-color:#f5f5f5; border-bottom:1px solid; border-top:1px solid; }
+.enlaces_imagenes {border: 0px none transparent; }
+.campos { FONT-FAMILY: Verdana, Tahoma; FONT-SIZE: 70%; }
+/*.campos:hover,.campos:active, .campo_actual {FONT-FAMILY: Verdana, Tahoma; FONT-SIZE: 70%; background-color:#FFFFEE ; color:#3333CC ; }*/
+.situacion { padding:0px; border-bottom: 1px outset black; vertical-align: middle; text-align:center; font-size:140%; margin-bottom:2%; }
+#second_menu {
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+}
+.disponible {
+    display: inline;
+    text-align:center;
+    color:white;
+    font-weight: bold;
+    font-family: Verdana, Tahoma;
+    font-size:70%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-top: 2px double #933000;
+    border-bottom: 2px double #933000;
+    border-right: 2px double white;
+    border-left: 2px double white;
+    background-color:#933000;
+    width:25%;
+}
+.actual {
+    display: inline;
+    text-align:center;
+    color:#933000;
+    font-weight: bold;
+    font-family: Verdana, Tahoma;
+    font-size:70%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 2px double #933000;
+    background-color:white;
+    width:25%;
+}
+.enlace_second_menu {
+    color:white;
+    font-weight: bold;
+    font-family: Verdana, Tahoma;
+}
+.enlace_second_menu:hover {
+    text-decoration:none;
+}
